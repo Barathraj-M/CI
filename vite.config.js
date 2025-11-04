@@ -1,5 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import { URL } from 'whatwg-url';
+global.URL = URL;
 
 // https://vite.dev/config/
 export default defineConfig({
